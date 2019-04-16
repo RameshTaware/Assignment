@@ -1,10 +1,9 @@
 <?php
-
-	class Customer
-	{
-		  private $conn;
+class Customer
+  {
+      private $conn;
     	private $table_name = "customers";
-	
+
     	public function __construct($db)
     	{
     		$this->conn= $db;
@@ -21,5 +20,5 @@
     		return $stmt;
     	}
 
-	}
+  }
 ?>
