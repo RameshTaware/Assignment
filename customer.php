@@ -1,14 +1,8 @@
 <?php
 
-  // include('config.php');
-  // include('database.php');
-  // $db = new Database($pdo);
-  // $rows= $db->getData();
-  // echo "<pre>".print_r($rows)."</pre>";
-
 	class Customer
 	{
-		private $conn;
+		  private $conn;
     	private $table_name = "customers";
 	
     	public function __construct($db)
